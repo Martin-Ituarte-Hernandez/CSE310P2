@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/hash.cc.dir/hash.cc.o  -o hash.cc -rdynamic 

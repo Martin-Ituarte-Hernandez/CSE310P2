@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/heap.cc.dir/heap.cc.o  -o heap.cc -rdynamic 

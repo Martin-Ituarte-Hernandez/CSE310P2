@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.hpp
+iostream
+-
+
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/defn.h
+string
+-
+
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.h
+
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.h
+
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/prime.cc
+iostream
+-
+math.h
+-
+defn.h
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/defn.h
+heap.h
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.h
+hash.h
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.h
+bts.hpp
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.hpp
+string
+-
+

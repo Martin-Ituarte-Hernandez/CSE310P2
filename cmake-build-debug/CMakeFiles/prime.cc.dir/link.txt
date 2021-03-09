@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/prime.cc.dir/prime.cc.o CMakeFiles/prime.cc.dir/bts.cc.o  -o prime.cc -rdynamic 
