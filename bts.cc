@@ -1,6 +1,6 @@
 #include "bts.hpp"
 
-BSTNode * BST::Insert(BSTNode * node, float key)
+BSTNode * BST::Insert(BSTNode * node, int key)
 {
     if(node == NULL)
     {
@@ -22,7 +22,7 @@ BSTNode * BST::Insert(BSTNode * node, float key)
     return node;
 }
 
-void BST::Insert(float key)
+void BST::Insert(int key)
 {
     root = Insert(root, key);
 }

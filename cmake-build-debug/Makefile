@@ -138,6 +138,54 @@ bts.cc.s:
 	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/bts.cc.s
 .PHONY : bts.cc.s
 
+hash.o: hash.cc.o
+.PHONY : hash.o
+
+# target to build an object file
+hash.cc.o:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/hash.cc.o
+.PHONY : hash.cc.o
+
+hash.i: hash.cc.i
+.PHONY : hash.i
+
+# target to preprocess a source file
+hash.cc.i:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/hash.cc.i
+.PHONY : hash.cc.i
+
+hash.s: hash.cc.s
+.PHONY : hash.s
+
+# target to generate assembly for a file
+hash.cc.s:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/hash.cc.s
+.PHONY : hash.cc.s
+
+heap.o: heap.cc.o
+.PHONY : heap.o
+
+# target to build an object file
+heap.cc.o:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/heap.cc.o
+.PHONY : heap.cc.o
+
+heap.i: heap.cc.i
+.PHONY : heap.i
+
+# target to preprocess a source file
+heap.cc.i:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/heap.cc.i
+.PHONY : heap.cc.i
+
+heap.s: heap.cc.s
+.PHONY : heap.s
+
+# target to generate assembly for a file
+heap.cc.s:
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/heap.cc.s
+.PHONY : heap.cc.s
+
 prime.o: prime.cc.o
 .PHONY : prime.o
 
@@ -174,6 +222,12 @@ help:
 	@echo "... bts.o"
 	@echo "... bts.i"
 	@echo "... bts.s"
+	@echo "... hash.o"
+	@echo "... hash.i"
+	@echo "... hash.s"
+	@echo "... heap.o"
+	@echo "... heap.i"
+	@echo "... heap.s"
 	@echo "... prime.o"
 	@echo "... prime.i"
 	@echo "... prime.s"

@@ -98,16 +98,66 @@ CMakeFiles/prime.cc.dir/bts.cc.o.provides: CMakeFiles/prime.cc.dir/bts.cc.o.requ
 
 CMakeFiles/prime.cc.dir/bts.cc.o.provides.build: CMakeFiles/prime.cc.dir/bts.cc.o
 
+CMakeFiles/prime.cc.dir/hash.cc.o: CMakeFiles/prime.cc.dir/flags.make
+CMakeFiles/prime.cc.dir/hash.cc.o: ../hash.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/prime.cc.dir/hash.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/prime.cc.dir/hash.cc.o -c /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.cc
+
+CMakeFiles/prime.cc.dir/hash.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prime.cc.dir/hash.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.cc > CMakeFiles/prime.cc.dir/hash.cc.i
+
+CMakeFiles/prime.cc.dir/hash.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prime.cc.dir/hash.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.cc -o CMakeFiles/prime.cc.dir/hash.cc.s
+
+CMakeFiles/prime.cc.dir/hash.cc.o.requires:
+.PHONY : CMakeFiles/prime.cc.dir/hash.cc.o.requires
+
+CMakeFiles/prime.cc.dir/hash.cc.o.provides: CMakeFiles/prime.cc.dir/hash.cc.o.requires
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/hash.cc.o.provides.build
+.PHONY : CMakeFiles/prime.cc.dir/hash.cc.o.provides
+
+CMakeFiles/prime.cc.dir/hash.cc.o.provides.build: CMakeFiles/prime.cc.dir/hash.cc.o
+
+CMakeFiles/prime.cc.dir/heap.cc.o: CMakeFiles/prime.cc.dir/flags.make
+CMakeFiles/prime.cc.dir/heap.cc.o: ../heap.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/prime.cc.dir/heap.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/prime.cc.dir/heap.cc.o -c /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.cc
+
+CMakeFiles/prime.cc.dir/heap.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prime.cc.dir/heap.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.cc > CMakeFiles/prime.cc.dir/heap.cc.i
+
+CMakeFiles/prime.cc.dir/heap.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prime.cc.dir/heap.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.cc -o CMakeFiles/prime.cc.dir/heap.cc.s
+
+CMakeFiles/prime.cc.dir/heap.cc.o.requires:
+.PHONY : CMakeFiles/prime.cc.dir/heap.cc.o.requires
+
+CMakeFiles/prime.cc.dir/heap.cc.o.provides: CMakeFiles/prime.cc.dir/heap.cc.o.requires
+	$(MAKE) -f CMakeFiles/prime.cc.dir/build.make CMakeFiles/prime.cc.dir/heap.cc.o.provides.build
+.PHONY : CMakeFiles/prime.cc.dir/heap.cc.o.provides
+
+CMakeFiles/prime.cc.dir/heap.cc.o.provides.build: CMakeFiles/prime.cc.dir/heap.cc.o
+
 # Object files for target prime.cc
 prime_cc_OBJECTS = \
 "CMakeFiles/prime.cc.dir/prime.cc.o" \
-"CMakeFiles/prime.cc.dir/bts.cc.o"
+"CMakeFiles/prime.cc.dir/bts.cc.o" \
+"CMakeFiles/prime.cc.dir/hash.cc.o" \
+"CMakeFiles/prime.cc.dir/heap.cc.o"
 
 # External object files for target prime.cc
 prime_cc_EXTERNAL_OBJECTS =
 
 prime.cc: CMakeFiles/prime.cc.dir/prime.cc.o
 prime.cc: CMakeFiles/prime.cc.dir/bts.cc.o
+prime.cc: CMakeFiles/prime.cc.dir/hash.cc.o
+prime.cc: CMakeFiles/prime.cc.dir/heap.cc.o
 prime.cc: CMakeFiles/prime.cc.dir/build.make
 prime.cc: CMakeFiles/prime.cc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable prime.cc"
@@ -119,6 +169,8 @@ CMakeFiles/prime.cc.dir/build: prime.cc
 
 CMakeFiles/prime.cc.dir/requires: CMakeFiles/prime.cc.dir/prime.cc.o.requires
 CMakeFiles/prime.cc.dir/requires: CMakeFiles/prime.cc.dir/bts.cc.o.requires
+CMakeFiles/prime.cc.dir/requires: CMakeFiles/prime.cc.dir/hash.cc.o.requires
+CMakeFiles/prime.cc.dir/requires: CMakeFiles/prime.cc.dir/heap.cc.o.requires
 .PHONY : CMakeFiles/prime.cc.dir/requires
 
 CMakeFiles/prime.cc.dir/clean:

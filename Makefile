@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS= -std=c++11 -Wall -pedantic -g
-SOURCES= prime.cc bts.cc
+SOURCES= prime.cc bts.cc hash.cc heap.cc
 DEPS= bts.hpp
 OBJECTS=$(SOURCES:.cc=.o)
 EXECUTABLE=myAppStore

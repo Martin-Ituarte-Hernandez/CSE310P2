@@ -7,7 +7,8 @@
 class BSTNode
 {
 public:
-    float Key;
+    int Key;
+    std::string keys;
     BSTNode * Left;
     BSTNode * Right;
     BSTNode * Parent;
@@ -19,8 +20,8 @@ private:
     BSTNode * root;
 
 public:
-    BSTNode * Insert(BSTNode * node, float key);
-    void Insert(float key);
+    BSTNode * Insert(BSTNode * node, int key);
+    void Insert(int key);
     void Print(BSTNode * node);
     void Print();
 };

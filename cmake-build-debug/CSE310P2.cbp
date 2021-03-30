@@ -72,9 +72,17 @@
       </Build>
       <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.cc">
       </Unit>
+      <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.cc">
+      </Unit>
+      <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.cc">
+      </Unit>
       <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/prime.cc">
       </Unit>
       <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.h">
+      </Unit>
+      <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/hash.h">
+      </Unit>
+      <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/heap.h">
       </Unit>
       <Unit filename="/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

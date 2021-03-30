@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "Heap.h"
+#include "heap.h"
 using namespace std;
 void Heap::max_heap(int *a, int m, int n) {
     int j, t;

@@ -12,10 +12,10 @@ using namespace std;
 #include <math.h>
 #include "defn.h"
 #include "heap.h"
-#include "hash.h"
+#include "hash.hpp"
 #include "bts.hpp"
 #include <string>
-#include <cstring>
+
 
 
 bool TestForPrime( int val )
@@ -32,20 +32,23 @@ int main()
 {
     int i, n, p;
     BST * tree = new BST;
-    struct app_info apps;
-   struct bst* appstore=new bst[2];
+   struct bst* appstore=new bst[0];
 
+
+
+//temp array just for testing;
     double prices[] = {6.99, 0.00, 0.00, 0.10};
 
-    for(const double& key : prices)
+    for(const int & key : prices)
         tree->Insert(key);
 
-    cout << "Tree keys: ";
+    cout << "prices: ";
     std::cout << std::fixed;
     std::cout << std::setprecision(2);
     tree->Print();
 
-
+HashTable* apps;
+apps.
 
 /*
     printf( "Enter number n of numbers to test as primes.\n" );
@@ -61,53 +64,55 @@ int main()
             printf( "%d is a prime.\n", p );
         else
             printf( "%d is not a prime.\n", p );
-    }*/
+    }
 
-    int categories;
-    cin >> categories;
+    int categoriesnum;
+    cin >> categoriesnum;
+    struct categories *app_categories = (struct categories *) malloc( n * sizeof( struct categories ) );
+
 
     // for categories
-    for (int i = 0; i < categories; i++) {
+    for (int i = 0; i < categoriesnum; i++) {
         string category_name;
         cin >> category_name ;
+        app_categories[i].category->assign(category_name);
+      //  cout << app_categories[i].category << "\n";
         cout << category_name << "\n";
 
     }
 //for app names
     int appCount;
     cin >> appCount;
+    struct app_info *app_infomation = (struct app_info *) malloc( n * sizeof( struct categories ) );
+
     for (int j = 0; j < appCount; j++) {
 
-        string category_name;
-        string app_Name;
+        string  category_name;
+        string app_name;
         string version;
         float appsize;
         string units;
         float appprice;
 
         cin >> category_name ;
-        cin >> category_name ;
+        cin >> app_name ;
         cin >> version ;
         cin >> appsize ;
         cin >> units ;
         cin >> appprice ;
 
-        cout  << apps.category << "\n";
-        cout  << apps.app_name << "\n";
-        cout  << apps.version << "\n";
-        cout  << apps.size << "\n";
-        cout  << apps.units << "\n";
-        cout  << apps.price << "\n";
-    }
-
-    int queries;
-    cin >> queries;
-    for (int k = 0; k < queries; k++) {
-
-        string queriesNum;
-        cin >> queriesNum;
 
     }
+//for queries
+    int queries_num;
+    cin >> queries_num;
+    for (int k = 0; k < queries_num; k++) {
+        string queries;
+        cin >> queries;
 
+    }
+    free (app_categories);
+    free (app_infomation);
     return 0;
+    */
 }

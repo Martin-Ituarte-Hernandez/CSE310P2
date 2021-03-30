@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.cc
+bts.hpp
+/afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.hpp
+
 /afs/asu.edu/users/m/i/t/mituarte/CSE310P2/bts.hpp
 iostream
 -
